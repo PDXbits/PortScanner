@@ -1,2 +1,3 @@
 # PortScanner
 Automated port scanner
+This is a Python-based Port scanner, that can be used to perform TCP enumeration, banner grabbing, and optional Nmap service/vulnerability scans. The code accepts flexible port specs such as listing multiple port examples: 22,80,21 or allowing a default 1-1024. Which can also be done via command line or interactive input, which can also handle timeouts and errors. When successful the code will print out the open ports and the services that are running on them. Please keep in mind that this tool is for learning purposes only and may be used for authorized testing. Run it against your own system or one that you have special permission. I am not responsible for any misuse.
